@@ -1,3 +1,5 @@
+تو اینپ پروزه سعی کردم هر انچه که تا بحال از ری اکت یاد گرفتم رو تمرین و پیاده سازی کنم از جایگزینی کمپوننت کامپزیشن بجای پراپ دریلینگ گرفته تا اسپلیت کردن منطقی کمپوننت ها بر اساس نوع شون و ...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
