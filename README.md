@@ -1,8 +1,3 @@
-تو این پروژه سعی کردم تمام آنچه که تا به اینجا
-کردم از react یاد گرفتم رو در قالب این پرژه به اشتراک
-بذارم . مباحثی مثل شکستن کمپوننت های بزرگ به کمپوننت های کوچک تر و reusable تر
-و نمایش در ui . جلوگیری از پراپ دریلینگ و استفاده از Component Composition ها
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
