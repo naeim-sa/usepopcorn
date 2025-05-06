@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const tempMovieData = [
   {
@@ -50,24 +50,9 @@ const tempWatchedData = [
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-const KEY = "3e1d2e40";
-
 export default function App() {
-  const [movies, setMovies] = useState([]);
-  const [watched, setWatched] = useState([]);
-  const query = "interstellar";
-
-  useEffect(function () {
-    async function fetchMovie() {
-      const res = await fetch(
-        `http://www.omdbapi.com/?apikey=${KEY}&S=${query}`
-      );
-      const data = await res.json();
-      setMovies(data.Search);
-    }
-    fetchMovie();
-    console.log(movies);
-  }, []);
+  const [movies, setMovies] = useState(tempMovieData);
+  const [watched, setWatched] = useState(tempWatchedData);
 
   return (
     <div>
@@ -254,3 +239,19 @@ function WatchedMovie({ movie }) {
     </li>
   );
 }
+
+// <p>
+//   A large project completely focused on the features of react.
+//
+//
+//
+//
+// کردم تمام آنچه که تا به اینجا
+//  ا تو این پروژه سعی
+//
+//
+ کردم تمام آنچه که تا به اینجا از react یاد گرفتم رو در قالب این پرژه به اشتراک
+   بذارم . مباحثی مثل شکستن کمپوننت های بزرگ به کمپوننت های کوچک تر و reusable تر
+   و نمایش در ui . جلوگیری از پراپ دریلینگ و استفاده از Component Composition ها
+   و ...
+// </p>;
